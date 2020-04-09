@@ -5,7 +5,11 @@ function addElementToBeginningOfArray(chocolateBars, candyString) {
   return [candyString, ...chocolateBars]
 }
 
-function destructivelyAddElementToBeginningOfArray(chocolateBars, candystring) {
+function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString) {
   chocolateBars.unshift(candyString);
   return chocolateBars;
+}
+function addElementToEndOfArray(chocolateBars, candyString) {
+  chocolateBars.push(candyString)
+  return chocolateBars
 }
