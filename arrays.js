@@ -25,7 +25,7 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   chocolateBars.shift();
   return chocolateBars
 }
-function addElementToEndOfArray(chocolateBars, candyString){
+function addElementToEndOfArray(chocolateBars){
   chocolateBars.slice()
   return chocolateBars
 }
